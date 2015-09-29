@@ -4,7 +4,7 @@
 #
 Name     : rubygem-blockenspiel
 Version  : 0.4.5
-Release  : 3
+Release  : 4
 URL      : https://rubygems.org/downloads/blockenspiel-0.4.5.gem
 Source0  : https://rubygems.org/downloads/blockenspiel-0.4.5.gem
 Summary  : No detailed summary available
