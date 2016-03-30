@@ -4,7 +4,7 @@
 #
 Name     : rubygem-blockenspiel
 Version  : 0.5.0
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/blockenspiel-0.5.0.gem
 Source0  : https://rubygems.org/downloads/blockenspiel-0.5.0.gem
 Summary  : No detailed summary available
@@ -57,55 +57,30 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/blockenspiel-0.5.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/Base/cdesc-Base.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/BlockParameterError/cdesc-BlockParameterError.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/BlockenspielError/cdesc-BlockenspielError.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/Builder/Target/cdesc-Target.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/Builder/add_method-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/Builder/cdesc-Builder.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSL/cdesc-DSL.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLMissingError/cdesc-DSLMissingError.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLSetupMethods/cdesc-DSLSetupMethods.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLSetupMethods/dsl_attr_accessor-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLSetupMethods/dsl_attr_writer-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLSetupMethods/dsl_method-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLSetupMethods/dsl_methods-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/DSLSetupMethods/klass_/cdesc-klass_.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/ProxyDelegator/cdesc-ProxyDelegator.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/Unmixer/Rubinius/cdesc-Rubinius.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/Unmixer/cdesc-Unmixer.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/cdesc-Blockenspiel.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/invoke-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/Blockenspiel/mixin_available%3f-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/page-Blockenspiel_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/page-History_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/page-ImplementingDSLblocks_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/doc/blockenspiel-0.5.0/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/Blockenspiel.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/History.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/ImplementingDSLblocks.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/Version
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/builder.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/dsl_setup.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/errors.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/impl.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/unmixer_rubinius.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/unmixer_unimplemented.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel/versionomy.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/lib/blockenspiel_unmixer_jruby.jar
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/files/file1.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_basic.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_behaviors.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_dsl_attrs.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_dsl_methods.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_dynamic.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_embedded_block.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_mixins.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_modules.rb
-/usr/lib64/ruby/gems/2.2.0/gems/blockenspiel-0.5.0/test/tc_version.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/blockenspiel-0.5.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/blockenspiel-0.5.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/Blockenspiel.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/History.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/ImplementingDSLblocks.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/Version
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/builder.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/dsl_setup.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/errors.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/impl.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/unmixer_rubinius.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/unmixer_unimplemented.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel/versionomy.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/lib/blockenspiel_unmixer_jruby.jar
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/files/file1.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_basic.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_behaviors.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_dsl_attrs.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_dsl_methods.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_dynamic.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_embedded_block.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_mixins.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_modules.rb
+/usr/lib64/ruby/gems/2.3.0/gems/blockenspiel-0.5.0/test/tc_version.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/blockenspiel-0.5.0.gemspec
